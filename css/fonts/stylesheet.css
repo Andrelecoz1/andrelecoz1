@@ -1,1 +1,15 @@
+@font-face {
+    font-family: 'HelveticaNeueLT Com 75 Bd';
+    src: url('HelveticaNeueLTCom-Bd.woff2') format('woff2'),
+        url('HelveticaNeueLTCom-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Berthold Akzidenz-Grotesk';
+    src: url('AkzidenzGroteskBE-BoldEx.woff2') format('woff2'),
+        url('AkzidenzGroteskBE-BoldEx.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
