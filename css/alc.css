@@ -222,7 +222,26 @@ PROJECT CONTENT CONTAINERS
 /*************************************************************************************************************
 MOBILE
 *************************************************************************************************************/
+@media (max-width: 1380px) {	
+	p.links {
+	  	font-size: 60px;
+		line-height:60px;
+	}
+}
 
+@media (max-width: 1200px) {	
+	p.links {
+	  	font-size: 50px;
+		line-height:50px;
+	}
+}
+
+@media (max-width: 900px) {	
+	p.links {
+	  	font-size: 40px;
+		line-height:40px;
+	}
+}
 
 @media (max-width: 790px) {	
 	.header nav {
@@ -247,8 +266,13 @@ MOBILE
 	}
 	
 	p {
-	  	font-size: 32px; 
-	  	line-height: 32px;
+	  	font-size: 28px; 
+	  	line-height: 28px;
+	}
+	
+	p.links {
+	  	font-size: 32px;
+		line-height:32px;
 	}
 	
 	.link-list-items {
@@ -283,6 +307,15 @@ MOBILE
 	.footer-2 {
 		margin-bottom:60px;
 	}	
+}
+
+@media (max-width: 600px) {	
+	
+	p.links {
+	  	font-size: 26px;
+		line-height:26px;
+	}
+	
 }
 
 @media (max-width: 500px) {	
