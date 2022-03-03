@@ -284,3 +284,12 @@ MOBILE
 		margin-bottom:60px;
 	}	
 }
+
+@media (max-width: 500px) {	
+	
+	p.links {
+	  	font-size: 22px;
+		line-height:22px;
+	}
+	
+}
