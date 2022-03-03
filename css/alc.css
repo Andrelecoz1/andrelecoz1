@@ -1,0 +1,286 @@
+﻿.dead p {
+	visibility:hidden;
+}
+
+
+/*************************************************************************************************************
+GLOBAL
+*************************************************************************************************************/
+
+body {
+    font-family: "HelveticaNeueLT Com 75 Bd", sans-serif;
+    margin: 0;
+    font-weight: 300;
+	background: #fff;
+}
+
+body, html {height: 100%}
+
+body.dark {
+	background: #000;
+}
+
+body.darkGrey {
+	background: #454545;
+}
+
+
+
+hr.hr-white {
+	border:1px #fff solid;
+	margin: 0;
+}
+
+hr.hr-black {
+	border:1px #000 solid;
+	margin: 0;
+}
+
+/*************************************************************************************************************
+h1 - h6 - p
+*************************************************************************************************************/
+
+h1 {
+  	font-family: "HelveticaNeueLT Com 75 Bd", serif; 
+  	font-weight: bold;
+  	font-size: 72px; 
+  	line-height: 72px;
+	letter-spacing: -3px;
+    color: #000;
+	text-align:center;
+}
+
+h2 {
+  	font-family: "HelveticaNeueLT Com 75 Bd", serif; 
+  	font-weight: bold;
+  	font-size: 72px; 
+  	line-height: 72px;
+	letter-spacing: -3px;
+    color: #000;
+	text-transform:uppercase;
+	text-align:center;
+	margin-top:0;
+}
+
+h3 {
+  	font-family: "Berthold Akzidenz-Grotesk", sans-serif; 
+  	font-weight: bold;
+  	font-size:16px;	
+	line-height:16px;
+    text-decoration: none;
+	text-transform: uppercase;
+	text-align:center;
+}
+
+p {
+  	font-family: "Helvetica", sans-serif; 
+  	font-weight: normal;
+  	font-size: 72px; 
+  	line-height: 72px;
+	letter-spacing: 0px;
+    color: #292a2c;
+	text-align:center;
+	margin:10px 0px;
+}
+
+h2 a:hover, h3 a:hover, p a:hover {
+	text-decoration:underline;
+}
+
+/*************************************************************************************************************
+NAV - BLACK
+*************************************************************************************************************/
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    transition: background-color 0.5s ease;
+}
+
+
+.header .header_content {
+    padding: 40px 40px;
+}
+
+
+.header nav {
+  	font-family: "Berthold Akzidenz-Grotesk", sans-serif; 
+  	font-weight: bold;
+  	font-size:16px;	
+	line-height:16px;
+    text-decoration: none;
+	text-transform: uppercase;
+}
+
+.header nav .nav-left {
+    float: left;
+}
+
+.header nav .nav-right {
+    float: right;
+	margin-left:40px;
+}
+
+.header nav a {
+    color: #000;
+}
+
+
+.header nav a:hover {
+    color: #555;
+}
+
+/*************************************************************************************************************
+VIDEO
+*************************************************************************************************************/
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*************************************************************************************************************
+LINK LIST
+*************************************************************************************************************/
+.link-list {
+	margin-bottom:0px;
+}
+
+.link-list-items {
+	margin-bottom:100px;
+}
+
+.link-list-projects {
+	margin-top:100px;
+}
+
+.link-list-projects h3 {
+	margin-bottom:40px;
+}
+
+/*************************************************************************************************************
+FOOTER
+*************************************************************************************************************/
+.footer {
+	margin-bottom:50px;
+}
+.footer-2 {
+	margin-bottom:140px;
+}
+
+/*************************************************************************************************************
+INFO CONTENT
+*************************************************************************************************************/
+.info-content {
+	margin-top:140px;
+}
+
+.info-content-2 {
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+.info-content-3 {
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+.info-content-3 p {
+	line-height:80px;
+}
+
+/*************************************************************************************************************
+PROJECT CONTENT CONTAINERS
+*************************************************************************************************************/
+.project-top-60-bottom-60 {
+	padding-top: 60px;
+	padding-bottom:60px;
+}
+
+
+.project-top-120-bottom-120 {
+	padding-top: 120px;
+	padding-bottom:120px;
+}
+
+
+/*************************************************************************************************************
+MOBILE
+*************************************************************************************************************/
+
+
+@media (max-width: 790px) {	
+	.header nav {
+	  	font-size:14px;	
+	}
+	
+	h1 {
+	  	font-size: 32px; 
+	  	line-height: 32px;
+		letter-spacing: -2px;
+
+	}
+
+	h2 {
+	  	font-size: 32px; 
+	  	line-height: 32px;
+		letter-spacing: -2px;
+	}
+	
+	h3 {
+		font-size:12px;
+	}
+	
+	p {
+	  	font-size: 32px; 
+	  	line-height: 32px;
+	}
+	
+	.link-list-items {
+		margin-bottom:50px;
+	}
+	
+	.info-content {
+		margin-top:70px;
+	}
+	
+	.info-content-2 {
+		margin-top:50px;
+	}
+	
+	.info-content-3 {
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+	
+	.info-content-3 p {	  	
+	  	line-height: 40px;
+	}
+	
+	.project-top-120-bottom-120 {
+		padding-top: 90px;
+		padding-bottom:60px;
+	}
+	
+	.footer {
+		margin-bottom:50px;
+	}
+	.footer-2 {
+		margin-bottom:60px;
+	}	
+}
